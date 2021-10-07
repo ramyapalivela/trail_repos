@@ -10,6 +10,7 @@ public class BookService {
 	
 	@Autowired
 	private Book book;
+	
 	public Book getBookById(int id) {
 		book.setBookId(201);
 		book.setBookName("Head First Java");
@@ -19,7 +20,6 @@ public class BookService {
 			book.setBookName("Effective Java");
 			book.setAuthor("Bruce Erickel");
 		}
-		
 		return this.book;
 	}
 	
